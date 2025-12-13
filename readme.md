@@ -1,1 +1,1 @@
-echo "# notes" >> README.md
+maadothanka waitttt
