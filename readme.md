@@ -1,1 +1,1 @@
-echo "# notes" >> README.md
+notes in building stage
