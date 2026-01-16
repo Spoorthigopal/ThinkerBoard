@@ -1,8 +1,7 @@
 import {useState} from "react";
 import {useEffect} from "react";
 import axios from "axios";
-import { set } from "mongoose";
-import navbar from "../components/navbar";
+import Navbar from "../components/navbar";
 import RateLimitedUI from "../components/RateLimitedUI";
 import toast from "react-hot-toast";
 
@@ -14,13 +13,14 @@ const HomePage = () => {
     useEffect(()=>{ 
         const fetchNotes=async()=>{
             try{
-                const res=await axios.get('http://localhost:5173/api/notes')
+                const res=await axios.get('http://localhost:5000/api/notes')
                 console.log(res.data)
                 setNotes(res.data)
                 setIsRateLimited(false)
                
             }catch(err){
                 console.log(err)
+
                 if(err.response && err.response.status===429){
                     setIsRateLimited(true)
                 }   
@@ -39,7 +39,6 @@ const HomePage = () => {
 
     return (    
         <div className="min-h-screen">
-            <navbar/>
             {isRateLimited && <RateLimitedUI />}
         </div>
     );
