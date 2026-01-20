@@ -1,9 +1,5 @@
-========================================================
-                        THINKERBOARD
-                 Full-Stack Notes Application
-                         (MERN Stack)
-========================================================
-
+THINKERBOARD 
+Full-Stack Notes Application (MERN Stack)
 PROJECT DESCRIPTION
 --------------------------------------------------------
 ThinkerBoard is a full-stack Notes application built using 
