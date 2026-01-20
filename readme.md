@@ -114,15 +114,3 @@ FUTURE IMPROVEMENTS
 • Add user authentication (login/signup)  
 • Deploy frontend and backend to cloud  
 • Add test coverage  
-
---------------------------------------------------------
-AUTHOR
---------------------------------------------------------
-Name: Spoorthi G M  
-Role: Full Stack Developer  
-Goal: Cloud & DevOps Engineer  
-
---------------------------------------------------------
-LICENSE
---------------------------------------------------------
-This project is released under the MIT License.
